@@ -1,0 +1,17 @@
+image:
+  file: .gitpod.dockerfile
+
+ports:
+  - port: 8000
+    onOpen: ignore
+  - port: 3306
+    onOpen: ignore
+
+tasks:
+  - init: composer install
+  - name: MySQL
+    command: >
+      mysqld
+  - command: myslq -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'passpass'"
+  - command: php db/resetDatabase.php
+  - command: php -S localhost:8000 -t public
