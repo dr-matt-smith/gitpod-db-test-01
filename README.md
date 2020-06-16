@@ -1,6 +1,6 @@
 # pdo-crud-for-free-repositories-sample-project
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#XXXXXrepoXXXXXX)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dr-matt-smith/gitpod-db-test-01)
 
 This sample project illustrates how to use the PHP package `pdo-crud-for-free-repositories`
 
